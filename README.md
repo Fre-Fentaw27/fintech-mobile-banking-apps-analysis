@@ -14,7 +14,7 @@ To assist Omega Consultancy in identifying customer satisfaction drivers and pai
 
 - Scraped 400+ reviews per bank
 - Preprocessed data (cleaning, deduplication, date normalization)
-- Stored in `data/reviews.csv`
+- Stored in `data/cleaned_reviews.csv` and `data/processed_reviews.csv`
 
 ## Methodology
 
@@ -48,16 +48,17 @@ To assist Omega Consultancy in identifying customer satisfaction drivers and pai
 fintech-mobile-banking-apps-analysis/
 │
 ├── data/
-│ ├── raw_reviews.csv
-│ └── clean_reviews.csv
+│ ├── processed_reviews.csv
+│ └── cleaned_reviews.csv
 │
 ├── scripts/
 │ └── scrape_reviews.py
+│ └── preprocessing.py
 │
 ├── notebooks/
-│ └── task1_eda.ipynb
-│
-├── preprocessing.py
+│ └── sentiment_analysis.ipynb
+│ └── thematic_analysis.ipynb
+├── preprocessing.log
 ├── requirements.txt
 ├── .gitignore
 └── README.md
