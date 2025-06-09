@@ -1,0 +1,23 @@
+2025-06-09 10:17:48,604 - INFO - Loaded processed reviews from D:\AI-projects\fintech-mobile-banking-apps-analysis\scripts\..\data\processed_reviews.csv
+2025-06-09 10:17:48,604 - INFO - Loading sentiment analysis model...
+2025-06-09 10:50:45,670 - INFO - Loaded processed reviews from D:\AI-projects\fintech-mobile-banking-apps-analysis\scripts\..\data\processed_reviews.csv
+2025-06-09 10:50:45,670 - INFO - Loading sentiment analysis model...
+2025-06-09 10:50:47,829 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-06-09 10:53:22,579 - INFO - Saved sentiment-annotated reviews to D:\AI-projects\fintech-mobile-banking-apps-analysis\scripts\..\data\reviews_with_sentiment.csv
+2025-06-09 10:53:22,614 - INFO - Sample:
+                                              review sentiment_label  sentiment_score
+0  really am happy to this app it is Siple to use...        positive         0.998870
+1  I liked this app. But the User interface is ve...        negative         0.999684
+2  "Why don’t your ATMs support account-to-accoun...        negative         0.996465
+3                        what is this app problem???        negative         0.999623
+4       the app is proactive and a good connections.        positive         0.999868
+2025-06-09 11:06:10,224 - INFO - Loaded processed reviews from D:\AI-projects\fintech-mobile-banking-apps-analysis\scripts\..\data\processed_reviews.csv
+2025-06-09 11:06:10,224 - INFO - Loading sentiment analysis model...
+2025-06-09 11:07:01,624 - ERROR - Error saving sentiment file: [Errno 13] Permission denied: 'D:\\AI-projects\\fintech-mobile-banking-apps-analysis\\scripts\\..\\data\\reviews_with_sentiment.csv'
+2025-06-09 11:07:01,655 - INFO - Sample:
+                                              review sentiment_label  sentiment_score
+0  really am happy to this app it is Siple to use...        positive         0.998870
+1  I liked this app. But the User interface is ve...        negative         0.999684
+2  "Why don’t your ATMs support account-to-accoun...        negative         0.996465
+3                        what is this app problem???        negative         0.999623
+4       the app is proactive and a good connections.        positive         0.999868

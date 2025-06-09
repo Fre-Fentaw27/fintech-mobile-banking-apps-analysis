@@ -16,6 +16,10 @@ To assist Omega Consultancy in identifying customer satisfaction drivers and pai
 - Preprocessed data (cleaning, deduplication, date normalization)
 - Stored in `data/cleaned_reviews.csv` and `data/processed_reviews.csv`
 
+## Task 2: Sentiment and Thematic Analysis
+
+- Stored in `thematic_analysis_output.csv`,`data/sentiment_aggregate_by_bank_rating.csv`and `data/reviews_with_sentimencsv`
+
 ## Methodology
 
 1. Scraped reviews from Google Play for:
@@ -50,15 +54,20 @@ fintech-mobile-banking-apps-analysis/
 ├── data/
 │ ├── processed_reviews.csv
 │ └── cleaned_reviews.csv
-│
+│ └── reviews_with_sentiment.csv
+│ └── sentiment_aggregate_by_bank_rating.csv
+│ └──thematic_analysis_output.csv
 ├── scripts/
 │ └── scrape_reviews.py
 │ └── preprocessing.py
-│
+│ └── sentiment_analysis.py
+│ └── themantic_analysis.py
 ├── notebooks/
 │ └── sentiment_analysis.ipynb
 │ └── thematic_analysis.ipynb
+│ └── eda_analysis.ipynb
 ├── preprocessing.log
+├── sentiment_analysis.log
 ├── requirements.txt
 ├── .gitignore
 └── README.md
