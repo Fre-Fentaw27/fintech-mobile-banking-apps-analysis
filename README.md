@@ -20,6 +20,8 @@ To assist Omega Consultancy in identifying customer satisfaction drivers and pai
 
 - Stored in `thematic_analysis_output.csv`,`data/sentiment_aggregate_by_bank_rating.csv`and `data/reviews_with_sentimencsv`
 
+## Task 3: Store Cleaned Data in Oracle
+
 ## Methodology
 
 1. Scraped reviews from Google Play for:
@@ -57,6 +59,8 @@ fintech-mobile-banking-apps-analysis/
 │ └── reviews_with_sentiment.csv
 │ └── sentiment_aggregate_by_bank_rating.csv
 │ └──thematic_analysis_output.csv
+├── database/
+│ └── database_schema.sql
 ├── scripts/
 │ └── scrape_reviews.py
 │ └── preprocessing.py
@@ -68,4 +72,5 @@ fintech-mobile-banking-apps-analysis/
 ├── sentiment_analysis.log
 ├── requirements.txt
 ├── .gitignore
+├── .env
 └── README.md
