@@ -64,8 +64,6 @@ fintech-mobile-banking-apps-analysis/
 │ └── themantic_analysis.py
 ├── notebooks/
 │ └── sentiment_analysis.ipynb
-│ └── thematic_analysis.ipynb
-│ └── eda_analysis.ipynb
 ├── preprocessing.log
 ├── sentiment_analysis.log
 ├── requirements.txt
