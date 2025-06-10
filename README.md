@@ -22,6 +22,8 @@ To assist Omega Consultancy in identifying customer satisfaction drivers and pai
 
 ## Task 3: Store Cleaned Data in Oracle
 
+## Task 4: Insights and recommendations
+
 ## Methodology
 
 1. Scraped reviews from Google Play for:
@@ -68,6 +70,7 @@ fintech-mobile-banking-apps-analysis/
 │ └── themantic_analysis.py
 ├── notebooks/
 │ └── sentiment_analysis.ipynb
+│ └── themantic_analysis_task4.ipynb
 ├── preprocessing.log
 ├── sentiment_analysis.log
 ├── requirements.txt
