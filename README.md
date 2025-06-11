@@ -62,18 +62,19 @@ fintech-mobile-banking-apps-analysis/
 │ └── sentiment_aggregate_by_bank_rating.csv
 │ └──thematic_analysis_output.csv
 ├── database/
-│ └── database_schema.sql
+│ └── bank_reviews_dump.sql
 ├── scripts/
 │ └── scrape_reviews.py
 │ └── preprocessing.py
 │ └── sentiment_analysis.py
 │ └── themantic_analysis.py
+│ └── oracle_import_reviews.py
 ├── notebooks/
 │ └── sentiment_analysis.ipynb
 │ └── thematic_analysis_task4.ipynb
+│ └── sentiment_analysis_from_oracle.ipynb
 ├── preprocessing.log
 ├── sentiment_analysis.log
 ├── requirements.txt
 ├── .gitignore
-├── .env
 └── README.md

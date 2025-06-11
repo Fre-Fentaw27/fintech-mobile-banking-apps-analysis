@@ -3,3 +3,14 @@ python-dateutil==2.9.0.post0
 seaborn
 matplotlib
 google-play-scraper
+textblob
+nltk
+SentimentIntensityAnalyzer
+wordcloud
+cx_Oracle
+logging
+datetime
+Counter
+time
+tqdm
+vaderSentiment
